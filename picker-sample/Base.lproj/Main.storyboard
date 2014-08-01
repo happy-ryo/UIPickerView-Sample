@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-VG-KzD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-VG-KzD">
                                 <rect key="frame" x="132" y="130" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Loading">
@@ -26,7 +26,7 @@
                                     <action selector="loadHud" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aWa-iR-2Tk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2N-Lt-0RX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2N-Lt-0RX">
                                 <rect key="frame" x="139" y="269" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Picker">
@@ -39,7 +39,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Wdt-VG-KzD" secondAttribute="trailing" constant="132" id="Kdm-T3-p56"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="e2N-Lt-0RX" secondAttribute="bottom" constant="269" id="RcN-Rk-Rl4"/>
+                            <constraint firstItem="Wdt-VG-KzD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="110" id="TUn-HD-LWX"/>
+                            <constraint firstAttribute="trailing" secondItem="e2N-Lt-0RX" secondAttribute="trailing" constant="138" id="aRk-mb-Uht"/>
+                            <constraint firstItem="e2N-Lt-0RX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="139" id="kz7-6O-5nJ"/>
+                            <constraint firstItem="Wdt-VG-KzD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="132" id="x90-ix-4xr"/>
                             <constraint firstItem="e2N-Lt-0RX" firstAttribute="top" secondItem="Wdt-VG-KzD" secondAttribute="bottom" constant="109" id="xr0-46-TmQ"/>
                         </constraints>
                     </view>

@@ -223,8 +223,6 @@
 			mainGroup = 89C504DF198B84DB009A6137;
 			productRefGroup = 89C504E9198B84DB009A6137 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				89C504E7198B84DB009A6137 /* picker-sample */,
@@ -503,6 +501,7 @@
 				89C5051C198B84DB009A6137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C5051D198B84DB009A6137 /* Build configuration list for PBXNativeTarget "picker-sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +510,7 @@
 				89C5051F198B84DB009A6137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

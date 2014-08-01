@@ -33,6 +33,13 @@
 }
 
 - (IBAction)loadPickerView {
+    // 2重表示チェック
+    for (UIView *uiView in self.view.subviews) {
+        if ([uiView isKindOfClass:[UIPickerView class]]) {
+            return;
+        }
+    }
+
     CGRect bounds = [UIScreen mainScreen].bounds;
 
     // 一旦画面外に配置する
