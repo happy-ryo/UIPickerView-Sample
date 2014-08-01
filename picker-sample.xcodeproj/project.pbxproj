@@ -424,6 +424,7 @@
 				GCC_PREFIX_HEADER = "picker-sample/picker-sample-Prefix.pch";
 				INFOPLIST_FILE = "picker-sample/picker-sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,6 +439,7 @@
 				GCC_PREFIX_HEADER = "picker-sample/picker-sample-Prefix.pch";
 				INFOPLIST_FILE = "picker-sample/picker-sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBProgressHUD.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     _titleStringArray = @[@"hoge", @"fuga", @"piyo"];
+}
+
+- (IBAction)loadHud {
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [self performSelector:@selector(removeHud) withObject:nil afterDelay:2];
+}
+
+- (void)removeHud {
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
 }
 
 - (IBAction)loadPickerView {

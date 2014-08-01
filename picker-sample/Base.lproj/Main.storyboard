@@ -22,6 +22,9 @@
                                 <state key="normal" title="Loading">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loadHud" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aWa-iR-2Tk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2N-Lt-0RX">
                                 <rect key="frame" x="139" y="269" width="43" height="30"/>
